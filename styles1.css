@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    /* border: 1px solid red; */
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+    font-size: medium;
+}
+
+body{
+    height: auto; /*change*/
+    width: 100vw;
+    background-color: #191e29;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 15px;
+}
+
+.main{
+    height: 100%; /*change*/
+    width: 800px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+
+.main *{
+
+    width: 100%;
+}
+
+.dock{
+    height: 10%;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.dock input{
+    display: none;
+}
+.dock label{
+    flex: 1;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+
+    /* box-shadow: -5px 5px 15px rgba(0,0,0,0.3); */
+    background-color: #132d46;
+    color:#b2b6bd;
+
+    font-size: medium;
+    font-weight: bold;
+}
+
+.dock label:hover{
+    background-color: #01c38d;
+    color:white;
+    box-shadow: -7px 10px 20px rgba(0,0,0,0.5);
+    flex: 1.1;
+    z-index: 10000000000000;
+
+    transition: all 0.3s;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    padding: 20px;
+}
+
+.box *, .box * i{
+    font-size: medium;
+    width:fit-content;
+
+    gap: 10px;
+}
+
+.box * i{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-title{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.box-subheader{
+    font-size: medium;
+    font-weight: 600;
+}
+
+.box-texts{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+}
+
+.one{
+    width: 100%;
+    height: 20%;
+
+    background-color: #01c38d;
+}
+
+.two{
+    width: 35%;
+    height: 80%;
+
+    background-color: #132d46;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.three{
+    width: 65%;
+    height: 80%;
+}
+.four{
+    width: 100%;
+    height: 80%;
+}
+
+.box-section{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    font-weight:800;
+    gap: 5px;
+
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+}
+
+
+
+.box-section *, .box-section i{
+    font-size: 19px;
+}
+
+.box-description, .description-section, .description-subheader{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-description{
+    gap: 15px;
+}
+
+.box-description *{
+    color: #e0e1e6e3
+}
+
+.box-section *{
+    color:white;
+}
+
+.description-section{
+    gap: 10px;
+}
+
+.description-subheader{
+    gap: 8px;
+}
+
+.subheader-content{
+    display: flex;
+    flex-direction: row;
+
+    gap: 5px;
+}
+
+.description-header{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#summarize:checked ~ #summarize-l, #complete:checked ~ #complete-l, #custom:checked ~ #custom-l, #bullet:checked ~ #bullet-l, #paragraph:checked ~ #paragraph-l, #academic:checked ~ #academic-l, #actuarial:checked ~ #actuarial-l, #investment:checked ~ #investment-l, #it:checked ~ #it-l{
+    background-color: #01c38d;
+    color:white;
+    box-shadow: -7px 10px 20px rgba(0,0,0,0.5);
+    flex: 1.1;
+    z-index: 1000000000;
+    transition: all 0.3s;
+}
+
+.container{
+    height: 80%;
+}
+
+
+.download{
+    width: 100%;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.download button{
+    all: unset;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    padding: 13px;
+    /* padding-left: 35px;
+    padding-right: 35px; */
+
+    border-radius: 15px;
+    width: 30%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    font-size: small;
+    font-weight: bold;
+}
+
+.download button *{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: medium;
+
+    width: min-content;
+}
+
+button:hover, button:hover *{
+    color:#01c38d;
+    transition: all 0.3s ease;
+}
+
+/* Dynamic UIs */
+
+.filter-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.filter{
+    width: fit-content;
+
+    padding: 10px;
+    
+    background-color: #01c38c44;
+    color: rgba(255, 255, 255, 0.329);
+    border-radius: 10px;
+
+    cursor: pointer;
+    /* transition: all 0.3s ease; */
+
+    position: relative;
+}
+
+.order{
+    position: absolute;
+
+    font-size: smaller;
+    font-weight: bold;
+
+    background-color: #b2b6bd83;
+
+    border-radius: 55px;
+    padding: 3px;
+
+    width: fit-content;
+    height: auto;
+    display: none; 
+
+    top: 0;
+    left: 95%;
+}   
+
+.filter-header{
+    width: 100%;
+    padding-bottom: 8px;
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 868px) {
+    .main {
+        width: 95%;
+    }
+
+    .container{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .box{
+        width: 100%;
+    }
+    .two{
+        height: auto;
+    }
+
+    
+}
+
+@media print{
+    body * {
+        /* position: relative; */
+        visibility: hidden;
+    }
+    * {
+        box-sizing: border-box;
+      }
+
+    .print, .print *{
+        display: block; /* avoid flex/grid if causing issues */
+        width: 100%;
+        box-shadow: none;
+        visibility: visible;
+        margin: 8px 0;
+    }
+
+    .block{
+        display:flex;
+    }
+
+    .block strong{
+        display:inline;
+    }
+
+    .box-section, .subheader-content, .box-texts{
+        display: flex;
+        flex-direction: row;
+
+        gap: 5px;
+    }
+}
+
+.paragpraph{
+    width: 100%;
+    color: black;
+    text-align: justify;
+}
+
+.placeholder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.four *, .four{
+    text-align: justify;
+}
