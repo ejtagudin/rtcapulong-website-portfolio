@@ -363,7 +363,7 @@ button:hover, button:hover *{
         width: 100%;
     }
     .two{
-        height: auto;
+        height: fit-content;
     }
 
     
