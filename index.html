@@ -11,10 +11,10 @@
     <div id="header" class="header">
         <div class="header-name">Rizaldy Capulong</div>
         <div class="header-links"> 
-            <a>Blog</a>
-            <a>Others</a>
-            <a href="cv_upd.html">CV</a>
-            <a href="index.html">Home</a>
+            <a class="point">Blog</a>
+            <a class="point">Others</a>
+            <a class="point" href="cv_upd.html">CV</a>
+            <a class="point" href="index.html">Home</a>
         </div> 
     </div>
     <div id="main">
@@ -180,22 +180,14 @@
                 </div>
             </div>
         </div>
-        <div class="overview">
+        <div id="place-button" class="overview">
             <div class="overview-title">Timeline</div>
-            <div class="timeline">
-                <div class="timeline-left">
-                    <div class="timeline-entry">
-                        <div class="year">Current</div>
-                        <div class="entry new">
-                            <div class="entry-title">
-                                Senior Lecturer III: Financial Analytics and Computer Operations Analysis<i class="material-icons">read_more</i>
-                            </div>
-                            <div class="entry-description">
-                                Department of Computer Science, College of Engineering, University of the Philippines, Diliman, Quezon City
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div id="timeline-holder" class="timeline-holder right-shadow">
+                
+                
+                
+                <button id="button-left" class="timeline-button left-button"><i class="material-icons">chevron_left</i></button>
+                <button id="button-right" class="timeline-button right-button"><i class="material-icons">chevron_right</i></button>
             </div>
         </div>
     </div>
@@ -216,5 +208,7 @@
         </div>
         <div>Made by Emilio Tagudin</div>
     </div>
+    <script src="info.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
