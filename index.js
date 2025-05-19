@@ -231,7 +231,7 @@ function matchString(string){
         return string.match(/\b(19|20)\d{2}\b/)[0];
     }
     else{
-        return 'No Date';
+        return 'Current';
     }
 }
 
