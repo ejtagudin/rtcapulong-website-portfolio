@@ -1,6 +1,8 @@
 let isResizing = false;
 const downloadButton = document.getElementById('download-cv');
 
+downloadButton.style.display = 'none';
+
 let placeholder1 = document.createElement('div');
 let placeholder2 = document.createElement('div');
 
