@@ -151,7 +151,7 @@ filterRequests();
 summarize.addEventListener('click', function(){
     cv2.style.display = 'none';
     cv3.style.display = 'none';
-    downloadButton.style.display = 'flex';
+    downloadButton.style.display = 'none';
 
     cv1.style.display = 'flex';
 
