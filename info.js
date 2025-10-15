@@ -2732,7 +2732,27 @@ const segments = {
                 </div>
             </div>
     
-            <div class="description-header">Domestic Seminar and Trainings</div>
+            <div class="description-header">Life Activities</div>
+            <div class="description-subheader">
+                <div class="subheader-content">
+                    <ul>
+                        <li><strong>Filipino Martial Arts / Self-Defense (Arnis/Bangkaw)</strong>, 2003 to present.</li>
+                        <li><strong>Computer</strong>, trained in computer science and programming using PASCAL and BASIC; used QuickBASIC, Tillinghast Actuarial Software, Excel, Powerpoint, Word, Lotus 123, WordPerfect, Freelance Graphics, Ami Professional, WordStar, Framework II, dbaselll+; AIG, SSS, UP, MSHS; 1983-1995.</li>
+                        <li><strong>Ballroom Dancing</strong>, attended free ballroom dancing classes on Friday evenings at the SSS and learned basics of swing, reggae, shaggy, tango, rhumba, jive, boogie, foxtrot, pasadoble, L.A. walk, samba, mambo, waltz, soca; August– October, 1998.</li>
+                        <li><strong>Teaching</strong>, trained in educational psychology and started university teaching at age 19, as first teaching assignment taught nine different undergraduate math courses in one and a half school years; conducted oral exams; among top 10 Math Faculty Members, top 3 Junior Math Faculty Members at UP as evaluated by the Teaching Evaluation Committee aided by student survey, for school year 1989-90; gave special lectures / private tutoring in combinatorics, abstract algebra, projective geometry, complex analysis, topology, geometric constructions, ordinary differential equations, algebra, actuarial mathematics, operations research, theory of interest, etc.; UConn, UP, ADNW, MSHS; 1982-93.</li>
+                        <li><strong>Spiritual</strong>, received instructions on the practice of Christian virtues; Matthewson House, a university center in Brown University, Providence, Rhode Island, U.S.A., 1991-93; Lauan Study Center (LSC), a university center in Loyola Heights, Quezon City, Metro Manila, Philippines sponsored by the Philippine Foundation for Cultural and Educational Development , 1987-91; both with spiritual direction from the Personal Prelature of the Holy Cross and Opus Dei.</li>
+                        <li><strong>Military</strong>, Citizen Military Training; unit: Alpha / Charlie Company, Field Artillery Battalion, Philippine Army; UP Dept. of Military Science and Tactics, 1986-88.</li>
+                        <li><strong>Journalism</strong>, creative writing, community reporting, newspaper writing, editing and publishing. TPIPS, MSHS; 1978-86</li>
+                        <li><strong>Competitive</strong>, underwent special training programs in communication sciences, natural sciences, and social sciences to prepare for international, national, regional, and citywide contests in individual and team categories; MSHS, TPIPS, 1976-86
+                        </li>
+                        <li><strong>Driving</strong>, passed State of Delaware Department of Motor Vehicles' Driver's Examination which includes physical, written, and actual driving and parking tests, held Delaware Driver's License (No. 1102976 Class D) issued July 22, 1993 and expired August 20, 1998
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    `,
+    'locTrain':`<div class="box-description"><div class="box-section"><i class='material-icons'>event</i><div class='section-title'>Local Seminars and Training</div></div>
             <div class="description-subheader">
                 <div class="subheader-content">
                     <ul class="list-entries">
@@ -2820,29 +2840,8 @@ const segments = {
                         <li>Quarterly Forum: Work Ethics, September 23, 1993</li>
                     </ul>
                 </div>
-            </div>
-            
-    
-            <div class="description-header">Life Activities</div>
-            <div class="description-subheader">
-                <div class="subheader-content">
-                    <ul>
-                        <li><strong>Filipino Martial Arts / Self-Defense (Arnis/Bangkaw)</strong>, 2003 to present.</li>
-                        <li><strong>Computer</strong>, trained in computer science and programming using PASCAL and BASIC; used QuickBASIC, Tillinghast Actuarial Software, Excel, Powerpoint, Word, Lotus 123, WordPerfect, Freelance Graphics, Ami Professional, WordStar, Framework II, dbaselll+; AIG, SSS, UP, MSHS; 1983-1995.</li>
-                        <li><strong>Ballroom Dancing</strong>, attended free ballroom dancing classes on Friday evenings at the SSS and learned basics of swing, reggae, shaggy, tango, rhumba, jive, boogie, foxtrot, pasadoble, L.A. walk, samba, mambo, waltz, soca; August– October, 1998.</li>
-                        <li><strong>Teaching</strong>, trained in educational psychology and started university teaching at age 19, as first teaching assignment taught nine different undergraduate math courses in one and a half school years; conducted oral exams; among top 10 Math Faculty Members, top 3 Junior Math Faculty Members at UP as evaluated by the Teaching Evaluation Committee aided by student survey, for school year 1989-90; gave special lectures / private tutoring in combinatorics, abstract algebra, projective geometry, complex analysis, topology, geometric constructions, ordinary differential equations, algebra, actuarial mathematics, operations research, theory of interest, etc.; UConn, UP, ADNW, MSHS; 1982-93.</li>
-                        <li><strong>Spiritual</strong>, received instructions on the practice of Christian virtues; Matthewson House, a university center in Brown University, Providence, Rhode Island, U.S.A., 1991-93; Lauan Study Center (LSC), a university center in Loyola Heights, Quezon City, Metro Manila, Philippines sponsored by the Philippine Foundation for Cultural and Educational Development , 1987-91; both with spiritual direction from the Personal Prelature of the Holy Cross and Opus Dei.</li>
-                        <li><strong>Military</strong>, Citizen Military Training; unit: Alpha / Charlie Company, Field Artillery Battalion, Philippine Army; UP Dept. of Military Science and Tactics, 1986-88.</li>
-                        <li><strong>Journalism</strong>, creative writing, community reporting, newspaper writing, editing and publishing. TPIPS, MSHS; 1978-86</li>
-                        <li><strong>Competitive</strong>, underwent special training programs in communication sciences, natural sciences, and social sciences to prepare for international, national, regional, and citywide contests in individual and team categories; MSHS, TPIPS, 1976-86
-                        </li>
-                        <li><strong>Driving</strong>, passed State of Delaware Department of Motor Vehicles' Driver's Examination which includes physical, written, and actual driving and parking tests, held Delaware Driver's License (No. 1102976 Class D) issued July 22, 1993 and expired August 20, 1998
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    `,
+            </div>`, 
+
     'organizations' : `
         <div class="box-section"><i class='material-icons'>sort</i><div class='section-title'>Organizations</div></div>
         <div class="box-description">
@@ -3282,9 +3281,242 @@ const segments = {
                     </div>
                 </div>
             </div>
+        </div>      
+    `,
+    'consul': `
+    <div class="box-section"><i class='material-icons'>pageview</i><div class="section-title">Consultancy</div></div>
+    <div class="box-description">
+        
+        <div class="description-header">Actuarial Consultant</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                Worked on a project for Unilab Center for Health Policy assessing Php 3.5-Trillion in health insurance claims numbering close to 90 million over 2018 to 2024 to review the existing benefit package of the Philippine Health Insurance Corporation (PhilHealth) and propose a supplemental benefit package including pricing. 
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>UP Manila Development Foundation, University of the Philippines Manila
+                </div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>May 2025 - September 2025</div>
+            </div>
         </div>
-    
-    `};
+
+        <div class="description-header">Actuarial and Investment Expert</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                <i>in response to Section 82 of the Social Security Act 1969 and capacity building of Social Security Organization (SOCSO) on actuarial work and investment governance</i>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>International Labour Organization for the 11th actuarial valuation of the Social Security Fund of Malaysia</div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>June 2021 – November 2022</div>
+            </div>
+        </div>
+
+        <div class="description-header">Workshop Expert, ISSA Academy Workshop on Actuarial Work for Social Security</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>New Delhi, India
+                </div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>March 26, 2019 – March 28, 2019</div>
+            </div>
+        </div>
+
+        <div class="description-header">Social Security/Actuarial/Investment Expert</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                Along with people from SSS, OWWA and Sri Lankans from Labour Ministry, we aided Nepalese people and government in matters related to social security coverage of overseas Nepali workers who contribute 40% of Nepal's GNP.
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>UN WOMEN Nepal
+                </div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>October 14, 2012 – October 20, 2012</div>
+            </div>
+        </div>
+
+        <div class="description-header">Actuarial Consultant</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>Philippine National Police, Camp Crame, Quezon City, Philippines
+                </div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>July 15, 2008 – January 25, 2009</div>
+            </div>
+        </div>
+
+        <div class="description-header">Actuarial Consultant</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>International Labour Organization, Fiji National Provident Fund
+                </div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>June 15, 2008 – February 2009</div>
+            </div>
+        </div>
+
+        <div class="description-header">Actuarial Pricing, Benefit Design, and Contributions Design of Health Insurance Benefit Package</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                for Coop Life Insurance and Mutual Benefit Services (CLIMBS) and Mindanao State University Iligan Institute of Technology Multi-Purpose Cooperative (MSU-IIT MPC) as supported by community-based social health insurance thrust of Arbeiterwohlfart Bundesverband e. V. (AWO) of Germany.
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>Health Development Institute, Center for Community Services, Ateneo De Manila University
+                </div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>October 2007 – April 2008</div>
+            </div>
+        </div>
+
+        <div class="description-header">Actuarial Consultant</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                for the Actuarial Valuation of the Kapanindungan sa Kalusugan (KsK) or "Solidarity for Health" Social Health Insurance Project, Batanes, as supported by community-based social health insurance thrust of Arbeiterwohlfahrt Bundesverband e.V. (AWO) of Germany
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>Health Development Institute, Center for Community Services, Ateneo De Manila University and Batanes Provincial Health Office (PHO)</div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>October 27, 2007 – November 3, 2007</div>
+            </div>
+        </div>
+
+        <div class="description-header">Social Security/Actuarial Consultant, Asian Development Bank’s Training on Social Security for the Society of Actuaries in Indonesia</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                <i>delivered a 3-day lecture course for the training conduction on social security</i>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>Jakarta, Indonesia
+                </div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>April 16, 2007 – April 29, 2007</div>
+            </div>
+        </div>
+
+        <div class="description-header">Social Security/Actuarial Consultant, Social Security For Private Sector Workshop for the Chief Labor Officers of the Kingdom of Bhutan</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                <i>conducted training and advised chief labor offices of Bhutan on setting up a social security scheme for the private sector, concepts of social security and actuarial practice in social security</i>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>University of the Philippines, Quezon City, Philippines
+                </div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>June 15, 2005 – June 30, 2005</div>
+            </div>
+        </div>
+
+        <div class="description-section">
+            <div class="description-header">Speaker/Actuarial Consultant, Bappenas Workshop "Towards a Viable Social Security System"</div>
+            <div class="description-subheader">
+                <div class="subheader-content">
+                    <i class="material-icons">location_on</i>
+                    <div>Jakarta, Indonesia
+                    </div>
+                </div>
+                <div class="subheader-content">
+                    <i class="material-icons">calendar_month</i>
+                    <div>June 24 2004 – June 26, 2004</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="description-header">Actuarial Consultant, Training on Economic and Actuarial Concepts</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                <i>delivered in English with simultaneous translation to Chinese five hours of lecture presentations to staff of Chinese Ministry of Finance and Ministry of Labor and Social Security assigned to the Liaoning Pension Scheme. The three presentation topics were: 1) Managing Pension Funds for a High Return and Actuarial Soundness, 2) Building models to forecast revenues, expenditures and fiscal sustainability in DB schemes, and 3) Applying Actuarial Models; and participated in a concluding panel discussion on success factors for the China social security reform program. The five-day course was conducted by the Liaoning Social Security Pension Reform Project Management Office and sponsored by the World Bank</i>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>Shenyan, Liaoning, China
+                </div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>September 2002 – October 2002</div>
+            </div>
+        </div>
+
+        <div class="description-header">I.T./Computer Graphics Presentation Consultant</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                develops PowerPoint presentations for doctors for morbidity and mortality conferences, census and audit conferences, preoperative, intraoperative and postoperative conferences, case presentations,  inter-hospital competitions, journal reports, lectures/continuous education and general conferences covering areas such as volatile anesthetics, pain management, kidney transplant, mastoidectomy, laryngoscopy, osteoarthritis, stereotactic craniotomy, bariatric surgery, pediatric anesthesia, systemic lupus erythematosus, airway anatomy, cholecystectomy, glossectomy, nephrectomy, gastrointestinal toxicity, epidural anesthesia, lower back pain, cancer pain, intravenous anesthetics, pheochromocytoma, patient-controlled analgesia, pharmacological treatment of spinal cord injury pain, etc.; provides helpful hints in the operation of various office software and computer/communications hardware.
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>Anesthesiology Department, St. Luke’s Medical Center, Quezon City, Philippines
+                </div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>January 2001-2003</div>
+            </div>
+        </div>
+
+        <div class="description-header">Resource Speaker / Actuarial Consultant, World Bank’s Modeling Pension Reform in China</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                <i>delivered in English with simultaneous translation to Chinese five hours of lecture presentations to general managers of pension schemes from all the provinces of China and to selected representatives from the Chinese Ministry of Finance and Ministry of Social Security with open forum. The three presentation topics were: 1) actuarial modeling in general or the financial projection of expenditures and disbursements of a social security scheme, 2) the Philippine Social Security System’s experience in actuarial modeling, and 3) a comparison of PROST (World Bank’s Pension Reform Options Simulation Toolkit) and the detailed Philippine SSS valuation. The three-day course was conducted by the World Bank Institute and sponsored by the Chinese Ministry of Finance and Ministry of Social Security</i>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>Shenyan, Beijing, China
+                </div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div>June 4, 2001 – June 6, 2001</div>
+            </div>
+        </div>
+
+        <div class="description-header">Actuarial Assistant Consultant</div>
+        <div class="description-subheader">
+            <div class="subheader-content">
+                assisted the actuarial consultant in designing the health insurance benefit package and contribution scheme for a pilot program for indigents in a southern Philippine province who are not covered by the Medical Care Program under the SSS, and calculated long term projections of revenues and expenditures and other cash flows
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">location_on</i>
+                <div>Bukidnon Health Insurance Project
+                </div>
+            </div>
+            <div class="subheader-content">
+                <i class="material-icons">calendar_month</i>
+                <div> June - December, 1993</div>
+            </div>
+        </div>
+    </div>
+    `
+    };
     //end segments
     
     //summarized segments
