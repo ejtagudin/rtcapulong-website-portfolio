@@ -2,6 +2,7 @@ let isResizing = false;
 const downloadButton = document.getElementById('download-cv');
 
 let placeholder2 = document.createElement('div');
+placeholder2.id = 'main-holder';
 
 const main = document.getElementById('main');
 const mainDock = document.getElementById('main-dock');
@@ -279,8 +280,8 @@ cv3.innerHTML = `
                     ${segments.intro}
                 </div>
                 <div class="box four">
-                    ${segments.academicWork}
                     ${placeholder2.innerHTML}
+                    ${segments.academicWork}
                 </div>`;
 insertSegment(segments.academicWork);
 
@@ -291,8 +292,8 @@ acadRadio.addEventListener('change', (e) => {
                     ${segments.intro}
                 </div>
                 <div class="box four">
-                    ${segments.academicWork}
                     ${placeholder2.innerHTML}
+                    ${segments.academicWork}
                 </div>`;
 
         insertSegment(segments.academicWork);
@@ -306,8 +307,8 @@ actuRadio.addEventListener('change', (e) => {
                     ${segments.intro}
                 </div>
                 <div class="box four">
-                    ${segments.actuarialWork}
                     ${placeholder2.innerHTML}
+                    ${segments.actuarialWork}
                 </div>`;
 
         insertSegment(segments.actuarialWork);
@@ -321,8 +322,8 @@ inveRadio.addEventListener('change', (e) => {
                     ${segments.intro}
                 </div>
                 <div class="box four">
-                    ${segments.investmentWork}
                     ${placeholder2.innerHTML}
+                    ${segments.investmentWork}
                 </div>`;
 
         insertSegment(segments.investmentWork);
@@ -438,8 +439,7 @@ function insertSegment(workExperience){
                             placeholder.id = li[key];
                             placeholder.innerHTML = segments[key];
 
-
-                            if(!placeholder2.querySelector(`#${placeholder.id}`)){
+                            if(!placeholder2.innerHTML.includes(`id="${placeholder.id}"`)){
                                 placeholder2.prepend(placeholder);
                             }
 
@@ -477,8 +477,10 @@ function insertSegment(workExperience){
                                 placeholder.classList.add('placeholder');
                                 placeholder.id = li[key];
                                 placeholder.innerHTML = segments[key];
-
-                                placeholder2.prepend(placeholder);
+                                if (!placeholder2.innerHTML.includes(`id="${placeholder.id}"`)){
+                                    placeholder2.prepend(placeholder);
+                                }
+                                    
                                 break;
                             }
                         }
