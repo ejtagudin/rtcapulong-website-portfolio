@@ -1,9 +1,6 @@
 let isResizing = false;
 const downloadButton = document.getElementById('download-cv');
 
-downloadButton.style.display = 'none';
-
-let placeholder1 = document.createElement('div');
 let placeholder2 = document.createElement('div');
 
 const main = document.getElementById('main');
@@ -52,7 +49,6 @@ subdock1.appendChild(bulletRadio);
 subdock1.appendChild(bulletLabel);
 subdock1.appendChild(paragraphRadio);
 subdock1.appendChild(paragraphLabel);
-mainDock.after(subdock1);
 // end subdock1
 
 // create subdock htmlFor custom
@@ -126,10 +122,12 @@ let li = {
     'distinctions': 'Distinctions', 
     'boardMemberships': 'Board Memberships', 
     'adminRoles': 'Administrative Roles', 
-    'international': 'International Experience', 
+    'international': 'International Experience and Conferences',
+    'locTrain': 'Local Seminars and Training', 
     'others': 'Other Domestic Experience', 
     'profAccreditations': 'Professional Accreditations', 
-    'organizations': 'Organizations'
+    'organizations': 'Organizations', 
+    'consul': 'Consultancy'
 };
 
 let filterButtons = [];
@@ -153,7 +151,7 @@ filterRequests();
 summarize.addEventListener('click', function(){
     cv2.style.display = 'none';
     cv3.style.display = 'none';
-    downloadButton.style.display = 'none';
+    downloadButton.style.display = 'flex';
 
     cv1.style.display = 'flex';
 
@@ -164,7 +162,6 @@ summarize.addEventListener('click', function(){
     if(filters){
         filters.remove();
     }
-    mainDock.after(subdock1);
 });
 
 complete.addEventListener('click', function(){
@@ -206,63 +203,14 @@ cv1.innerHTML = `
             ${segments.intro}
         </div>
         <div class="box four">
-            <p>RIZALDY CAPULONG, 55, is currently Senior Lecturer 3 at the Department of Computer Science,
-College of Engineering, University of the Philippines, Diliman, Quezon City where he teaches elective courses
-on Financial Analytics, a combination of actuarial science and investment management for career and
-retirement planning, and Computer Operations Analysis, a combination of management science / operations
-research applied to computer industry problems, and information communication technology laws and
-industry standards and practices, since August 2023.</p>
-<p>After 35 years of government service, 33 years at the Social Security System (SSS) and 2 years at the
-University of the Philippines in Diliman (UPD), he retired in April 2024 as SSS Executive Vice President for
-Investments and overseer for actuarial and risk management, information technology management /
-information system security, benefit administration and management services, Commissioner – Alternate for
-the SSS at the Employees Compensation Commission, and trustee of the SSS Employees’ Provident Fund.
-Over a 30-year period from 1995 to 2024, he performed dual or concurrent actuarial and investment
-functions or positions for the SSS. He also chaired several committees such as the Joint Venture Selection
-Committee, Acquired Assets Disposal Committee, Bids and Awards Committee, Provident Fund Security
-Committee and the SSS Provident Fund Compensation Committee.</p>
-<p>Over a 20-year period from 1989 to 2008 and since August 2023, he taught undergraduate, graduate
-and professional courses in the Philippines’ top four universities. He became a full-time University Instructor 2
-and later Senior Lecturer 3 in three colleges in UPD: Science (1989-1995), Business Administration
-(1994-2008) and Engineering (2023 to present), a Lecturer V in the Department of Mathematics and Physics,
-University of Santo Tomas (2002 to 2008), where he taught weekend actuarial science courses, Assistant
-Professorial Lecturer V in the Mathematics Department, De La Salle University (2002) where he taught
-algebra and differential equations, and Lecturer in Ateneo de Manila University Management Department
-and Ateneo Graduate School of Business Center for Continuing Education (1995-2004) where he taught
-business statistics, operations management and operations research/management science.</p>
-<p>At the international level, he served as the Deputy Team Leader of the Philippine delegation to the
-1990 International Mathematical Olympiad and served as consultant of the World Bank, Asian Development
-Bank, United Nations, International Labour Office, International Social Security Association, U.S.A.I.D. in
-Manila and Jakarta, German Agency for Technical Cooperation (InWent), as well as social security
-organizations in China, Indonesia, Malaysia, Thailand, Nepal, Bhutan, and Fiji, over a 30-year period from
-1993 to 2022. He was also speaker on investments and actuarial practice in social security in various
-conferences and training programs in Boston, New York, London, Paris, Berlin, Mexico City, Montevideo,
-Kathmandu, New Delhi, Tokyo, Beijing, Shenyang, Seoul, Hong Kong, Jakarta, Bali, Bangkok, Kuala Lumpur and
-Singapore, over a 24-year period from 2000 to 2023.</p>
-<p>Domestically, he has served several professional organizations and private corporations as a
-committee chairman or member of the board of directors or trustees. He was a member of the board of
-trustees of the Fund Managers Association of the Philippines (2023-2024), and the board of directors of the
-Operations Research Society of the Philippines (2000-2002, 2019-2021), as well as chairman of the Social
-Insurance Committee of the Actuarial Society of the Philippines (2019-2023). He was also a director of the
-Philippine Dealing System Holdings (2014-2017, 2018-2019), Philamlife Tower Management Corporation
-(2018-2022), Equitable-PCIBank (2001-2002), Al-Amanah Islamic Investment Bank (2003-2005) and Ionics, Inc.
-(2019-2020).</p>
-<p>Professionally, he is an Associate of both the Society of Actuaries of North America (1994) and the
-Actuarial Society of the Philippines (1995), a Certified Associate Treasury Professional (2016) and a Career
-Executive Service Officer of the Republic of the Philippines (2001). He also passed the Securities and Exchange
-Licensure Examination for Stockbroers/Dealers/Salesmen (1995) and completed several programs at the
-Asian Institute of Management including the one-year Trust Course of the Trust Officers Association of the
-Philippines (2010), the Financial Risk Management Program and the Enterprise-Wide Risk Management
-Program (2007).</p>
-<p>As an Asia Foundation Scholar, he earned a Master of Science in Mathematics - Actuarial Science
-degree from the University of Connecticut (1991–1993), and was elected to the United States National
-Mathematics Honor Society (Pi Mu Epsilon) as one of the most outstanding graduate students. As a U.P.
-Government Scholar, he graduated magna cum laude with a B.S. Mathematics degree from UPD (1986-1989)
-and received multiple distinctions including the Dean’s Gold Medal for the Most Outstanding Student in
-Mathematics, one of the 12 Most Outstanding Students in the U.P. System, and membership in the Phi Kappa
-Phi International Honor Society. He also graduated as valedictorian in both the Manila Science High School
-and Timoteo Paez Integrated Pilot School in Tondo, Manila with subject distinctions Best in Math, Best in
-Science, Best in English and Best in English Journalism.</p>
+            <p>RIZALDY CAPULONG, 56, is currently Senior Lecturer 3 at the Department of Computer Science, College of Engineering, University of the Philippines, Diliman, Quezon City, where he teaches elective courses on Financial Analytics and Computer Operations Analysis, since August 2023.</p>
+            <p>He recently concluded a 4-month actuarial consultancy assignment with the University of the Philippines Manila Development Foundation for a 2025 Unilab Center for Health Policy (UCHP)-funded project that assessed ₱3.5 trillion in health insurance claims, totaling nearly 90 million records from 2018 to 2024. The project aimed to review the existing benefit package of the Philippine Health Insurance Corporation (PhilHealth) and develop proposals for a supplemental benefit package, including pricing recommendations.</p>
+            <p>After 35 years of government service, 33 years at the Social Security System (SSS) and 2 years at the University of the Philippines in Diliman (UPD), he retired from full-time government service in April 2024 as SSS Executive Vice President. Over a 30-year period from 1995 to 2024, he performed dual or concurrent actuarial and investment functions or positions for the SSS.</p>
+            <p>Over a 20-year period from 1989 to 2008 and since August 2023, he taught quantitative undergraduate, graduate and professional courses at the Philippines’ top four universities.</p>
+            <p>At the international level, he served as the Deputy Team Leader of the Philippine delegation to the 1990 International Mathematical Olympiad and served as actuarial, investment or social security consultant of the World Bank, Asian Development Bank, United Nations, International Labour Office, International Social Security Association, U.S.A.I.D. in Manila and Jakarta, German Agency for Technical Cooperation (InWent), as well as social security organizations in China, Indonesia, Malaysia, Thailand, Nepal, Bhutan, and Fiji, over a 30-year period from 1993 to 2022. He was also speaker on investments and actuarial practice in social security in various conferences and training programs in Boston, New York, London, Paris, Berlin, Mexico City, Montevideo, Kathmandu, New Delhi, Tokyo, Beijing, Shenyang, Seoul, Hong Kong, Jakarta, Bali, Bangkok, Kuala Lumpur and Singapore, over a 24-year period from 2000 to 2023.</p>
+            <p>Professionally, he is an Associate of both the Society of Actuaries of North America (1994) and the Actuarial Society of the Philippines (1995), a Certified Associate Treasury Professional (2016) of the Bankers Association of the Philippines (BAP), and a Career Executive Service Officer of the Republic of the Philippines (2001). He completed several programs at the Asian Institute of Management including the one-year Trust Course of the Trust Officers Association of the Philippines (2010), the Financial Risk Management Program and the Enterprise-Wide Risk Management Program (2007).</p>
+            <p>As an Asia Foundation Scholar, he earned a Master of Science in Mathematics - Actuarial Science degree from the University of Connecticut (1991–1993), and was elected to the United States National Mathematics Honor Society (Pi Mu Epsilon) as one of the most outstanding graduate students. </p>
+            <p>Mr. Capulong also served as actuarial design and pricing consultant for community health insurance programs in the Philippine provinces of Bukidnon and Batanes as well as CLIMBS, a microinsurance provider in the Philippines.</p>
         </div>`;
 
 cv2.innerHTML = `
@@ -271,6 +219,7 @@ cv2.innerHTML = `
     </div>
     <div class="box two">
         ${segments.international}
+        ${segments.consul}
         ${segments.education}
         ${segments.distinctions}
         ${segments.organizations}
@@ -308,68 +257,18 @@ bulletRadio.addEventListener('change', (e) => {
 
 paragraphRadio.addEventListener('change', (e) => {
     if(e.target.checked){
-        cv1.innerHTML = `
-        <div class="box one">
+        cv1.innerHTML = `<div class="box one">
             ${segments.intro}
         </div>
         <div class="box four">
-            <p>RIZALDY CAPULONG, 55, is currently Senior Lecturer 3 at the Department of Computer Science,
-College of Engineering, University of the Philippines, Diliman, Quezon City where he teaches elective courses
-on Financial Analytics, a combination of actuarial science and investment management for career and
-retirement planning, and Computer Operations Analysis, a combination of management science / operations
-research applied to computer industry problems, and information communication technology laws and
-industry standards and practices, since August 2023.</p>
-<p>After 35 years of government service, 33 years at the Social Security System (SSS) and 2 years at the
-University of the Philippines in Diliman (UPD), he retired in April 2024 as SSS Executive Vice President for
-Investments and overseer for actuarial and risk management, information technology management /
-information system security, benefit administration and management services, Commissioner – Alternate for
-the SSS at the Employees Compensation Commission, and trustee of the SSS Employees’ Provident Fund.
-Over a 30-year period from 1995 to 2024, he performed dual or concurrent actuarial and investment
-functions or positions for the SSS. He also chaired several committees such as the Joint Venture Selection
-Committee, Acquired Assets Disposal Committee, Bids and Awards Committee, Provident Fund Security
-Committee and the SSS Provident Fund Compensation Committee.</p>
-<p>Over a 20-year period from 1989 to 2008 and since August 2023, he taught undergraduate, graduate
-and professional courses in the Philippines’ top four universities. He became a full-time University Instructor 2
-and later Senior Lecturer 3 in three colleges in UPD: Science (1989-1995), Business Administration
-(1994-2008) and Engineering (2023 to present), a Lecturer V in the Department of Mathematics and Physics,
-University of Santo Tomas (2002 to 2008), where he taught weekend actuarial science courses, Assistant
-Professorial Lecturer V in the Mathematics Department, De La Salle University (2002) where he taught
-algebra and differential equations, and Lecturer in Ateneo de Manila University Management Department
-and Ateneo Graduate School of Business Center for Continuing Education (1995-2004) where he taught
-business statistics, operations management and operations research/management science.</p>
-<p>At the international level, he served as the Deputy Team Leader of the Philippine delegation to the
-1990 International Mathematical Olympiad and served as consultant of the World Bank, Asian Development
-Bank, United Nations, International Labour Office, International Social Security Association, U.S.A.I.D. in
-Manila and Jakarta, German Agency for Technical Cooperation (InWent), as well as social security
-organizations in China, Indonesia, Malaysia, Thailand, Nepal, Bhutan, and Fiji, over a 30-year period from
-1993 to 2022. He was also speaker on investments and actuarial practice in social security in various
-conferences and training programs in Boston, New York, London, Paris, Berlin, Mexico City, Montevideo,
-Kathmandu, New Delhi, Tokyo, Beijing, Shenyang, Seoul, Hong Kong, Jakarta, Bali, Bangkok, Kuala Lumpur and
-Singapore, over a 24-year period from 2000 to 2023.</p>
-<p>Domestically, he has served several professional organizations and private corporations as a
-committee chairman or member of the board of directors or trustees. He was a member of the board of
-trustees of the Fund Managers Association of the Philippines (2023-2024), and the board of directors of the
-Operations Research Society of the Philippines (2000-2002, 2019-2021), as well as chairman of the Social
-Insurance Committee of the Actuarial Society of the Philippines (2019-2023). He was also a director of the
-Philippine Dealing System Holdings (2014-2017, 2018-2019), Philamlife Tower Management Corporation
-(2018-2022), Equitable-PCIBank (2001-2002), Al-Amanah Islamic Investment Bank (2003-2005) and Ionics, Inc.
-(2019-2020).</p>
-<p>Professionally, he is an Associate of both the Society of Actuaries of North America (1994) and the
-Actuarial Society of the Philippines (1995), a Certified Associate Treasury Professional (2016) and a Career
-Executive Service Officer of the Republic of the Philippines (2001). He also passed the Securities and Exchange
-Licensure Examination for Stockbroers/Dealers/Salesmen (1995) and completed several programs at the
-Asian Institute of Management including the one-year Trust Course of the Trust Officers Association of the
-Philippines (2010), the Financial Risk Management Program and the Enterprise-Wide Risk Management
-Program (2007).</p>
-<p>As an Asia Foundation Scholar, he earned a Master of Science in Mathematics - Actuarial Science
-degree from the University of Connecticut (1991–1993), and was elected to the United States National
-Mathematics Honor Society (Pi Mu Epsilon) as one of the most outstanding graduate students. As a U.P.
-Government Scholar, he graduated magna cum laude with a B.S. Mathematics degree from UPD (1986-1989)
-and received multiple distinctions including the Dean’s Gold Medal for the Most Outstanding Student in
-Mathematics, one of the 12 Most Outstanding Students in the U.P. System, and membership in the Phi Kappa
-Phi International Honor Society. He also graduated as valedictorian in both the Manila Science High School
-and Timoteo Paez Integrated Pilot School in Tondo, Manila with subject distinctions Best in Math, Best in
-Science, Best in English and Best in English Journalism.</p>
+            <p>RIZALDY CAPULONG, 56, is currently Senior Lecturer 3 at the Department of Computer Science, College of Engineering, University of the Philippines, Diliman, Quezon City, where he teaches elective courses on Financial Analytics and Computer Operations Analysis, since August 2023.</p>
+            <p>He recently concluded a 4-month actuarial consultancy assignment with the University of the Philippines Manila Development Foundation for a 2025 Unilab Center for Health Policy (UCHP)-funded project that assessed ₱3.5 trillion in health insurance claims, totaling nearly 90 million records from 2018 to 2024. The project aimed to review the existing benefit package of the Philippine Health Insurance Corporation (PhilHealth) and develop proposals for a supplemental benefit package, including pricing recommendations.</p>
+            <p>After 35 years of government service, 33 years at the Social Security System (SSS) and 2 years at the University of the Philippines in Diliman (UPD), he retired from full-time government service in April 2024 as SSS Executive Vice President. Over a 30-year period from 1995 to 2024, he performed dual or concurrent actuarial and investment functions or positions for the SSS.</p>
+            <p>Over a 20-year period from 1989 to 2008 and since August 2023, he taught quantitative undergraduate, graduate and professional courses at the Philippines’ top four universities.</p>
+            <p>At the international level, he served as the Deputy Team Leader of the Philippine delegation to the 1990 International Mathematical Olympiad and served as actuarial, investment or social security consultant of the World Bank, Asian Development Bank, United Nations, International Labour Office, International Social Security Association, U.S.A.I.D. in Manila and Jakarta, German Agency for Technical Cooperation (InWent), as well as social security organizations in China, Indonesia, Malaysia, Thailand, Nepal, Bhutan, and Fiji, over a 30-year period from 1993 to 2022. He was also speaker on investments and actuarial practice in social security in various conferences and training programs in Boston, New York, London, Paris, Berlin, Mexico City, Montevideo, Kathmandu, New Delhi, Tokyo, Beijing, Shenyang, Seoul, Hong Kong, Jakarta, Bali, Bangkok, Kuala Lumpur and Singapore, over a 24-year period from 2000 to 2023.</p>
+            <p>Professionally, he is an Associate of both the Society of Actuaries of North America (1994) and the Actuarial Society of the Philippines (1995), a Certified Associate Treasury Professional (2016) of the Bankers Association of the Philippines (BAP), and a Career Executive Service Officer of the Republic of the Philippines (2001). He completed several programs at the Asian Institute of Management including the one-year Trust Course of the Trust Officers Association of the Philippines (2010), the Financial Risk Management Program and the Enterprise-Wide Risk Management Program (2007).</p>
+            <p>As an Asia Foundation Scholar, he earned a Master of Science in Mathematics - Actuarial Science degree from the University of Connecticut (1991–1993), and was elected to the United States National Mathematics Honor Society (Pi Mu Epsilon) as one of the most outstanding graduate students. </p>
+            <p>Mr. Capulong also served as actuarial design and pricing consultant for community health insurance programs in the Philippine provinces of Bukidnon and Batanes as well as CLIMBS, a microinsurance provider in the Philippines.</p>
         </div>`;
         matchHeight();
     }
@@ -379,14 +278,10 @@ cv3.innerHTML = `
                 <div class="box one">
                     ${segments.intro}
                 </div>
-                <div class="box two">
-                    ${placeholder1.innerHTML}
-                </div>
-                <div class="box three">
+                <div class="box four">
                     ${segments.academicWork}
                     ${placeholder2.innerHTML}
                 </div>`;
-
 insertSegment(segments.academicWork);
 
 acadRadio.addEventListener('change', (e) => {
@@ -395,10 +290,7 @@ acadRadio.addEventListener('change', (e) => {
                 <div class="box one">
                     ${segments.intro}
                 </div>
-                <div class="box two">
-                    ${placeholder1.innerHTML}
-                </div>
-                <div class="box three">
+                <div class="box four">
                     ${segments.academicWork}
                     ${placeholder2.innerHTML}
                 </div>`;
@@ -413,10 +305,7 @@ actuRadio.addEventListener('change', (e) => {
                 <div class="box one">
                     ${segments.intro}
                 </div>
-                <div class="box two">
-                    ${placeholder1.innerHTML}
-                </div>
-                <div class="box three">
+                <div class="box four">
                     ${segments.actuarialWork}
                     ${placeholder2.innerHTML}
                 </div>`;
@@ -431,10 +320,7 @@ inveRadio.addEventListener('change', (e) => {
                 <div class="box one">
                     ${segments.intro}
                 </div>
-                <div class="box two">
-                    ${placeholder1.innerHTML}
-                </div>
-                <div class="box three">
+                <div class="box four">
                     ${segments.investmentWork}
                     ${placeholder2.innerHTML}
                 </div>`;
@@ -449,10 +335,7 @@ itRadio.addEventListener('change', (e) => {
                 <div class="box one">
                     ${segments.intro}
                 </div>
-                <div class="box two">
-                    ${placeholder1.innerHTML}
-                </div>
-                <div class="box three">
+                <div class="box four">
                     ${segments.itWork}
                     ${placeholder2.innerHTML}
                 </div>`;
@@ -555,29 +438,18 @@ function insertSegment(workExperience){
                             placeholder.id = li[key];
                             placeholder.innerHTML = segments[key];
 
-                            if(order%2 != 0){
-                                if(!placeholder1.querySelector(`#${placeholder.id}`)){
-                                    placeholder1.appendChild(placeholder);
-                                }
+
+                            if(!placeholder2.querySelector(`#${placeholder.id}`)){
+                                placeholder2.prepend(placeholder);
                             }
-                            else{
-                                if(!placeholder2.querySelector(`#${placeholder.id}`)){
-                                    placeholder2.appendChild(placeholder);
-                                }
-                            }
-                            console.log(placeholder1.children);
-                            console.log(placeholder2.children);
 
                             cv3.innerHTML = `
                             <div class="box one">
                                 ${segments.intro}
                             </div>
-                            <div class="box two">
-                                ${placeholder1.innerHTML}
-                            </div>
-                            <div class="box three">
-                                ${workExperience}
+                            <div class="box four">
                                 ${placeholder2.innerHTML}
+                                ${workExperience}
                             </div>`;
                             matchHeight();
                             break;
@@ -586,7 +458,6 @@ function insertSegment(workExperience){
                 }
             }
             else{
-                placeholder1.innerHTML = '';
                 placeholder2.innerHTML = '';
                 
                 let filterList = filters.querySelectorAll('.filter');
@@ -607,12 +478,7 @@ function insertSegment(workExperience){
                                 placeholder.id = li[key];
                                 placeholder.innerHTML = segments[key];
 
-                                if(number%2 != 0){
-                                    placeholder1.appendChild(placeholder);
-                                }
-                                else{
-                                    placeholder2.appendChild(placeholder);
-                                }
+                                placeholder2.prepend(placeholder);
                                 break;
                             }
                         }
@@ -623,12 +489,9 @@ function insertSegment(workExperience){
                 <div class="box one">
                     ${segments.intro}
                 </div>
-                <div class="box two">
-                    ${placeholder1.innerHTML}
-                </div>
-                <div class="box three">
-                    ${workExperience}
+                <div class="box four">
                     ${placeholder2.innerHTML}
+                    ${workExperience}
                 </div>`;
                 matchHeight();
             }
