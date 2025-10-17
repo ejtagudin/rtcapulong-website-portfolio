@@ -248,12 +248,17 @@ label{
 
 .download{
     width: 100%;
-
+    height: 50px;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #191e29;
+}
 
+.download:hover{
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+    transition: all 0.3s ease-in-out;
 }
 
 .download button{
@@ -278,6 +283,7 @@ label{
 
     font-size: small;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .download button *{
@@ -292,10 +298,7 @@ label{
     width: min-content;
 }
 
-button:hover, button:hover *{
-    color:#01c38d;
-    transition: all 0.3s ease;
-}
+
 
 /* Dynamic UIs */
 
@@ -417,4 +420,95 @@ button:hover, button:hover *{
 
 .four *, .four{
     text-align: justify;
+}
+
+#download-cv{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border-radius: 0;
+}
+
+#download-cv:hover *,  #download-cv:hover{
+    color: white;
+}
+
+.downloads {
+  position: fixed;              /* stays fixed to viewport */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  /* true centering trick */
+  
+  background-color:#191e29;
+  width: 250px;
+  height: 450px;
+  
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 15px;
+  flex: 1;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.overlay {
+  position: fixed;          /* lock to viewport */
+  top: 0;                   /* start at very top */
+  left: 0;                  /* start at very left */
+  width: 100vw;             /* full viewport width */
+  height: 100vh;            /* full viewport height */
+  background: rgba(0, 0, 0, 0.5); /* dim background */
+  z-index: 999999999999;             /* on top of everything */
+  display: flex;            /* hidden by default */
+  
+}
+
+.down-button {
+    all: unset;
+    background-color: #191e29;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: bold;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.down-button i{
+    color: white;
+    width: 100px;
+    height:100px;
+    font-size: 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.down-button:hover {
+    border: 2px solid #01c38d;
+    transition: all 0.3s ease-in-out;
+}
+
+.down-button:hover *{
+    color:#01c38d;
+}
+
+.downloads {
+  z-index: 1000;
 }
