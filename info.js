@@ -762,21 +762,6 @@ const segments = {
             </div>
         </div>
         <div class="description-section">
-            <div class="description-header">Actuarial Consultant</div>
-            <div class="description-subheader">
-                
-                <div class="subheader-content">
-                    <i class="material-icons">location_on</i>
-                    <div>Philippine National Police, Camp Crame, Quezon City, Philippines
-                    </div>
-                </div>
-                <div class="subheader-content">
-                    <i class="material-icons">calendar_month</i>
-                    <div>July 15, 2008 – January 25, 2009</div>
-                </div>
-            </div>
-        </div>
-        <div class="description-section">
             <div class="description-header">Deputy Chief Actuary / Head of Actuarial Department</div>
             <div class="description-subheader">
                 <div class="subheader-content">
@@ -830,23 +815,6 @@ const segments = {
                 <div class="subheader-content">
                     <i class="material-icons">calendar_month</i>
                     <div>July 12,1999 – January 8, 2014</div>
-                </div>
-            </div>
-        </div>
-        <div class="description-section">
-            <div class="description-header">Actuarial Assistant Consultant</div>
-            <div class="description-subheader">
-                <div class="subheader-content">
-                    assisted the actuarial consultant in designing the health insurance benefit package and contribution scheme for a pilot program for indigents in a southern Philippine province who are not covered by the Medical Care Program under the SSS, and calculated long term projections of revenues and expenditures and other cash flows
-                </div>
-                <div class="subheader-content">
-                    <i class="material-icons">location_on</i>
-                    <div>Bukidnon Health Insurance Project
-                    </div>
-                </div>
-                <div class="subheader-content">
-                    <i class="material-icons">calendar_month</i>
-                    <div> June - December, 1993</div>
                 </div>
             </div>
         </div>
@@ -1205,25 +1173,6 @@ const segments = {
                     <div class="subheader-content">
                         <i class="material-icons">calendar_month</i>
                         <div>2000-present</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="box-description">
-            <div class="description-section">
-                <div class="description-header">I.T./Computer Graphics Presentation Consultant</div>
-                <div class="description-subheader">
-                    <div class="subheader-content">
-                        develops PowerPoint presentations for doctors for morbidity and mortality conferences, census and audit conferences, preoperative, intraoperative and postoperative conferences, case presentations,  inter-hospital competitions, journal reports, lectures/continuous education and general conferences covering areas such as volatile anesthetics, pain management, kidney transplant, mastoidectomy, laryngoscopy, osteoarthritis, stereotactic craniotomy, bariatric surgery, pediatric anesthesia, systemic lupus erythematosus, airway anatomy, cholecystectomy, glossectomy, nephrectomy, gastrointestinal toxicity, epidural anesthesia, lower back pain, cancer pain, intravenous anesthetics, pheochromocytoma, patient-controlled analgesia, pharmacological treatment of spinal cord injury pain, etc.; provides helpful hints in the operation of various office software and computer/communications hardware.
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">location_on</i>
-                        <div>Anesthesiology Department, St. Luke’s Medical Center, Quezon City, Philippines
-                        </div>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">calendar_month</i>
-                        <div>January 2001-2003</div>
                     </div>
                 </div>
             </div>
@@ -1712,22 +1661,6 @@ const segments = {
     'international' : `
         <div class="box-section"><i class='material-icons'>language</i><div class="section-title">International Experience</div></div>
         <div class="box-description">
-            <div class="description-section">
-                <div class="description-header">Actuarial and Investment Expert</div>
-                <div class="description-subheader">
-                    <div class="subheader-content">
-                        <i>in response to Section 82 of the Social Security Act 1969 and capacity building of Social Security Organization (SOCSO) on actuarial work and investment governance</i>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">location_on</i>
-                        <div>International Labour Organization for the 11th actuarial valuation of the Social Security Fund of Malaysia</div>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">calendar_month</i>
-                        <div>June 2021 – November 2022</div>
-                    </div>
-                </div>
-            </div>
     
             <div class="description-section">
                 <div class="description-header">Speaker, International Labour Organization Country Office for Thailand, Cambodia and Lao People’s Democratic Republic on Investment Governance and Management</div>
@@ -1743,24 +1676,6 @@ const segments = {
                     <div class="subheader-content">
                         <i class="material-icons">calendar_month</i>
                         <div>November 9, 2020</div>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="description-section">
-                <div class="description-header">Workshop Expert, ISSA Academy Workshop on Actuarial Work for Social Security</div>
-                <div class="description-subheader">
-                    <div class="subheader-content">
-                        <i>co-conducted the workshop for the Asia Pacific Region plus some African countries on the adoption of the ISSA Guidelines on Actuarial Work in Social Security Programs</i>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">location_on</i>
-                        <div>New Delhi, India
-                        </div>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">calendar_month</i>
-                        <div>March 26, 2019 – March 28, 2019</div>
                     </div>
                 </div>
             </div>
@@ -1819,21 +1734,6 @@ const segments = {
             </div>
     
             <div class="description-section">
-                <div class="description-header">Actuarial Consultant</div>
-                <div class="description-subheader">
-                    <div class="subheader-content">
-                        <i class="material-icons">location_on</i>
-                        <div>International Labour Organization, Fiji National Provident Fund
-                        </div>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">calendar_month</i>
-                        <div>June 15, 2008 – February 2009</div>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="description-section">
                 <div class="description-header">Speaker and Panelist, Asian Investors Asian Investment Summit</div>
                 <div class="description-subheader">
                     <div class="subheader-content">
@@ -1847,24 +1747,6 @@ const segments = {
                     <div class="subheader-content">
                         <i class="material-icons">calendar_month</i>
                         <div>May 17, 2007 – May 18, 2007</div>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="description-section">
-                <div class="description-header">Social Security/Actuarial Consultant, Asian Development Bank’s Training on Social Security for the Society of Actuaries in Indonesia</div>
-                <div class="description-subheader">
-                    <div class="subheader-content">
-                        <i>delivered a 3-day lecture course for the training conduction on social security</i>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">location_on</i>
-                        <div>Jakarta, Indonesia
-                        </div>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">calendar_month</i>
-                        <div>April 16, 2007 – April 29, 2007</div>
                     </div>
                 </div>
             </div>
@@ -1906,42 +1788,6 @@ const segments = {
             </div>
     
             <div class="description-section">
-                <div class="description-header">Social Security/Actuarial Consultant, Social Security For Private Sector Workshop for the Chief Labor Officers of the Kingdom of Bhutan</div>
-                <div class="description-subheader">
-                    <div class="subheader-content">
-                        <i>conducted training and advised chief labor offices of Bhutan on setting up a social security scheme for the private sector, concepts of social security and actuarial practice in social security</i>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">location_on</i>
-                        <div>University of the Philippines, Quezon City, Philippines
-                        </div>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">calendar_month</i>
-                        <div>June 15, 2005 – June 30, 2005</div>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="description-section">
-                <div class="description-header">Speaker, Bappenas Workshop "Towards a Viable Social Security System"</div>
-                <div class="description-subheader">
-                    <div class="subheader-content">
-                        <i>delivered a speech entitled "Restoring the Actuarial Viability of the Philippine SSS" at a USAID-funded social security workshop and talked to Indonesian lawmakers, labor unions and employer groups about reforming the Indonesian social security system</i>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">location_on</i>
-                        <div>Jakarta, Indonesia
-                        </div>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">calendar_month</i>
-                        <div>June 24 2004 – June 26, 2004</div>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="description-section">
                 <div class="description-header">Lecturer, ISSA Regional Training Course for Asia & the Pacific</div>
                 <div class="description-subheader">
                     <div class="subheader-content">
@@ -1955,42 +1801,6 @@ const segments = {
                     <div class="subheader-content">
                         <i class="material-icons">calendar_month</i>
                         <div>October 13 2003 – October 22, 2003</div>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="description-section">
-                <div class="description-header">Actuarial Consultant, Training on Economic and Actuarial Concepts</div>
-                <div class="description-subheader">
-                    <div class="subheader-content">
-                        <i>delivered in English with simultaneous translation to Chinese five hours of lecture presentations to staff of Chinese Ministry of Finance and Ministry of Labor and Social Security assigned to the Liaoning Pension Scheme. The three presentation topics were: 1) Managing Pension Funds for a High Return and Actuarial Soundness, 2) Building models to forecast revenues, expenditures and fiscal sustainability in DB schemes, and 3) Applying Actuarial Models; and participated in a concluding panel discussion on success factors for the China social security reform program. The five-day course was conducted by the Liaoning Social Security Pension Reform Project Management Office and sponsored by the World Bank</i>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">location_on</i>
-                        <div>Shenyan, Liaoning, China
-                        </div>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">calendar_month</i>
-                        <div>September 2002 – October 2002</div>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="description-section">
-                <div class="description-header">Resource Speaker / Actuarial Consultant, World Bank’s Modeling Pension Reform in China</div>
-                <div class="description-subheader">
-                    <div class="subheader-content">
-                        <i>delivered in English with simultaneous translation to Chinese five hours of lecture presentations to general managers of pension schemes from all the provinces of China and to selected representatives from the Chinese Ministry of Finance and Ministry of Social Security with open forum. The three presentation topics were: 1) actuarial modeling in general or the financial projection of expenditures and disbursements of a social security scheme, 2) the Philippine Social Security System’s experience in actuarial modeling, and 3) a comparison of PROST (World Bank’s Pension Reform Options Simulation Toolkit) and the detailed Philippine SSS valuation. The three-day course was conducted by the World Bank Institute and sponsored by the Chinese Ministry of Finance and Ministry of Social Security</i>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">location_on</i>
-                        <div>Shenyan, Beijing, China
-                        </div>
-                    </div>
-                    <div class="subheader-content">
-                        <i class="material-icons">calendar_month</i>
-                        <div>June 4, 2001 – June 6, 2001</div>
                     </div>
                 </div>
             </div>
